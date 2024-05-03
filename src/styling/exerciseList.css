@@ -1,0 +1,49 @@
+.exercise-list-item {
+    background-color: #18191b; 
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.125); 
+    padding: 0.75rem 1rem;
+    margin-bottom: -1px; 
+    cursor: pointer; 
+  }
+  
+  .exercise-list-item:hover {
+    background-color: #495057; 
+  }
+  
+  
+  .list-group-item.action {
+    background-color: transparent;
+    color: white;
+  }
+
+  .back-button {
+    background-color: transparent;
+    border: none;
+    color: white; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    cursor: pointer; 
+  }
+  
+ 
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .back-button, .back-button:active, .back-button:focus, .back-button:hover {
+    background-color: transparent;
+    border-color: transparent; 
+    outline: none !important; 
+    box-shadow: none !important; 
+    transition: none !important; 
+
+  }
+  
+
+
+
+  
+  

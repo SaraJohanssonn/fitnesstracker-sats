@@ -1,0 +1,47 @@
+.input-minimalist {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: transparent;
+    outline: none;
+    color: white;
+    margin-bottom: 10px; 
+  }
+  
+  .input-minimalist:focus {
+    border-bottom: 1px solid white; 
+  }
+  
+  .input-minimalist::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+
+  .text-button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: white;
+  }
+  
+  .text-button:hover,
+  .text-button:active,
+  .text-button:focus {
+    background-color: transparent;
+    outline: none;
+    color: white;
+  }
+
+.set-label {
+  cursor: pointer;
+  padding: 5px;
+  user-select: none; 
+}
+
+.set-completed {
+  border-left: 4px solid orange;
+}
+
+
+  
+  
