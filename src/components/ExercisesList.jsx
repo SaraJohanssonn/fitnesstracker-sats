@@ -56,7 +56,7 @@ const ExercisesList = () => {
   return (
     <Container
       className="my-4"
-      style={{ borderRadius: "0.25rem", maxWidth: "500px", margin: "auto" }}
+      style={{ borderRadius: "0.25rem", maxWidth: "600px", margin: "auto" }}
     >
       <Button onClick={handleBack} className="back-button">
         <FontAwesomeIcon icon={faArrowLeft} size="lg" />

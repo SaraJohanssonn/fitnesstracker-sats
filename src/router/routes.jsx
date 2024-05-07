@@ -7,7 +7,7 @@ import WorkoutSum from "../components/WorkoutSum";
 
 export const pages = [
   {
-    path: "/",
+    path: "/tracker",
     label: "Hem",
     element: <Home />,
   },
