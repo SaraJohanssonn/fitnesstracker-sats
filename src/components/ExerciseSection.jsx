@@ -59,6 +59,8 @@ const ExerciseSection = () => {
                   <Form.Control
                     size="sm"
                     type="number"
+                    inputMode="numeric"
+                    pattern="[0-9]*"
                     value={set.weight}
                     className="input-minimalist"
                     onChange={(e) =>
@@ -69,6 +71,8 @@ const ExerciseSection = () => {
                   <Form.Control
                     size="sm"
                     type="number"
+                    inputMode="numeric"
+                    pattern="[0-9]*"
                     value={set.reps}
                     className="input-minimalist"
                     onChange={(e) =>
