@@ -34,7 +34,7 @@ const TimerDisplay = () => {
     stopTimer();
     resetTimer();
     clearExercises();
-    navigate("/");
+    navigate("/tracker");
   };
 
   const handleFinishWorkout = () => {

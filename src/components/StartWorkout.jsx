@@ -34,7 +34,7 @@ const StartWorkout = () => {
           <h4 className="text-center">Sammanställning</h4>
         </Col>
       </Row>
-      <Row className="text-center">
+      <Row className="text-center mb-3">
         <Col xs={4}>
           <div>Total vikt</div>
           <div className="fw-bold">{stats.totalWeight} ton</div>

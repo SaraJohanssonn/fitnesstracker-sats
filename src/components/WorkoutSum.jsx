@@ -14,7 +14,7 @@ const WorkoutSum = () => {
   const handleFinish = () => {
     resetTimer();
     clearExercises();
-    navigate("/");
+    navigate("/tracker");
   };
 
   const formatTime = () => {
