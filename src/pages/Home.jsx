@@ -1,5 +1,5 @@
 import React from "react";
-import satsImage from "../img/sats.png"; // Sökvägen till bilden
+import satsImage from "../img/sats.png";
 
 const Home = () => {
   return (

@@ -1,4 +1,3 @@
-// src/services/exerciseService.js
 import axios from "axios";
 
 const fetchExercises = async (muscle, apiKey) => {
@@ -19,7 +18,7 @@ const fetchExercises = async (muscle, apiKey) => {
       return response.data;
     } catch (error) {
       console.error("Error fetching exercises:", error);
-      throw error; // Throw the error to be handled by the caller
+      throw error;
     }
   }
 };
